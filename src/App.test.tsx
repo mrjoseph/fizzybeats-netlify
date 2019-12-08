@@ -1,9 +1,14 @@
+  
 import React from 'react';
-import { render } from '@testing-library/react';
 import App from './App';
-
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+import renderer from 'react-test-renderer';
+describe('App', () => {
+    describe('snapshot', () => {
+        it('renders correctly', () => {
+            interface Iapp {}    
+            const props:Iapp = {}
+            const tree = renderer.create(<App {...props}/>).toJSON();
+            expect(tree).toMatchSnapshot();
+          });
+    })
 });

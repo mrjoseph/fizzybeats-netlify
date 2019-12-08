@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="MuiTypography-root MuiTypography-body1"
+    style={
+      Object {
+        "backgroundColor": "#cfe8fc",
+        "height": "100vh",
+      }
+    }
+  >
+    hello
+  </div>
+</div>
+`;
