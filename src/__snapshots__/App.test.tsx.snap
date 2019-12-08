@@ -13,7 +13,7 @@ exports[`App snapshot renders correctly 1`] = `
       }
     }
   >
-    hello
+    social media
   </div>
 </div>
 `;

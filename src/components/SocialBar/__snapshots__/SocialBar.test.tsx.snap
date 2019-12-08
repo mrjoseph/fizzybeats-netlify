@@ -10,6 +10,6 @@ exports[`SocialBar snapshot renders correctly 1`] = `
     }
   }
 >
-  hello
+  social media
 </div>
 `;
