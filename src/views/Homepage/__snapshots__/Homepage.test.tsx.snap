@@ -13,7 +13,7 @@ exports[`SocialBar snapshot renders correctly 1`] = `
       }
     }
   >
-    social media linkss
+    social media links
   </div>
 </div>
 `;
