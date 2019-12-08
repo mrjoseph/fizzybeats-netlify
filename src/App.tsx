@@ -1,11 +1,15 @@
 import React from 'react';
-import SocialBar from './components/SocialBar';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Homepage from './views/Homepage';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <SocialBar />
-    </div>
+    <React.Fragment>
+      <div className="App">
+        <CssBaseline />
+        <Homepage />
+      </div>
+    </React.Fragment>
   );
 }
 

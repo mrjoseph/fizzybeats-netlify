@@ -2,18 +2,88 @@
 
 exports[`SocialBar snapshot renders correctly 1`] = `
 <div
-  className="MuiContainer-root MuiContainer-maxWidthXl"
+  className="MuiContainer-root makeStyles-container-1 MuiContainer-maxWidthLg"
 >
   <div
-    className="MuiTypography-root MuiTypography-body1"
-    style={
-      Object {
-        "backgroundColor": "#cfe8fc",
-        "height": "100vh",
-      }
-    }
+    className="makeStyles-root-9"
   >
-    social media links
+    <h4
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      LISTEN TO FIZZY BEATS ON:
+    </h4>
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-10 MuiPaper-rounded"
+        >
+          <a
+            href="https://www.instagram.com/fizzy_beats/"
+            target="_blank"
+          >
+            <img
+              alt="instagram"
+              src="iconmonstr-instagram-11.svg"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-10 MuiPaper-rounded"
+        >
+          <a
+            href="https://soundcloud.com/fizzybeats"
+            target="_blank"
+          >
+            <img
+              alt="Soundcloud"
+              src="iconmonstr-soundcloud-1.svg"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-10 MuiPaper-rounded"
+        >
+          <a
+            href="https://www.facebook.com/FizzybeatsDnB/"
+            target="_blank"
+          >
+            <img
+              alt="Facebook"
+              src="iconmonstr-facebook-4.svg"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3"
+      >
+        <div
+          className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-10 MuiPaper-rounded"
+        >
+          <a
+            href="https://www.youtube.com/user/fizzybeatsDnB"
+            target="_blank"
+          >
+            <img
+              alt="Youtube"
+              src="iconmonstr-youtube-6.svg"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
