@@ -4,7 +4,7 @@ const SocialBar = () : JSX.Element | null => {
     return (
     <React.Fragment>
         <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }}> 
-        social media
+        social media linkss
         </Typography>
     </React.Fragment>
     )
