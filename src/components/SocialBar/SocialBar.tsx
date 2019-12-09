@@ -12,6 +12,9 @@ const useStyles = makeStyles((theme: Theme) =>
     root: {
       flexGrow: 1,
     },
+    img: {
+        width: '60px',
+    },
     paper: {
       padding: theme.spacing(2),
       textAlign: 'center',
@@ -62,7 +65,7 @@ const SocialBar = () : JSX.Element | null => {
                         <Grid item xs={6} sm={3} key={title}>
                             <Paper className={classes.paper}>
                                 <a href={url} target="_blank">
-                                <img src={image} alt={title} />
+                                <img src={image} alt={title} className={classes.img}/>
                                 </a>
                             </Paper>
                     </Grid>

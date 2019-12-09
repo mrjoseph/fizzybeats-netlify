@@ -6,7 +6,7 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     container: {
       margin: 'auto',
-      width: '1024px',
+      'max-width': '1024px',
       bckground: 'red'
     },
   }),

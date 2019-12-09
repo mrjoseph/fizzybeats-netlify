@@ -22,7 +22,7 @@ exports[`App snapshot renders correctly 1`] = `
           className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-10 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-11 MuiPaper-rounded"
           >
             <a
               href="https://www.instagram.com/fizzy_beats/"
@@ -30,6 +30,7 @@ exports[`App snapshot renders correctly 1`] = `
             >
               <img
                 alt="instagram"
+                className="makeStyles-img-10"
                 src="iconmonstr-instagram-11.svg"
               />
             </a>
@@ -39,7 +40,7 @@ exports[`App snapshot renders correctly 1`] = `
           className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-10 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-11 MuiPaper-rounded"
           >
             <a
               href="https://soundcloud.com/fizzybeats"
@@ -47,6 +48,7 @@ exports[`App snapshot renders correctly 1`] = `
             >
               <img
                 alt="Soundcloud"
+                className="makeStyles-img-10"
                 src="iconmonstr-soundcloud-1.svg"
               />
             </a>
@@ -56,7 +58,7 @@ exports[`App snapshot renders correctly 1`] = `
           className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-10 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-11 MuiPaper-rounded"
           >
             <a
               href="https://www.facebook.com/FizzybeatsDnB/"
@@ -64,6 +66,7 @@ exports[`App snapshot renders correctly 1`] = `
             >
               <img
                 alt="Facebook"
+                className="makeStyles-img-10"
                 src="iconmonstr-facebook-4.svg"
               />
             </a>
@@ -73,7 +76,7 @@ exports[`App snapshot renders correctly 1`] = `
           className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3"
         >
           <div
-            className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-10 MuiPaper-rounded"
+            className="MuiPaper-root MuiPaper-elevation1 makeStyles-paper-11 MuiPaper-rounded"
           >
             <a
               href="https://www.youtube.com/user/fizzybeatsDnB"
@@ -81,6 +84,7 @@ exports[`App snapshot renders correctly 1`] = `
             >
               <img
                 alt="Youtube"
+                className="makeStyles-img-10"
                 src="iconmonstr-youtube-6.svg"
               />
             </a>
