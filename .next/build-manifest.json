@@ -1,0 +1,18 @@
+{
+  "devFiles": [],
+  "pages": {
+    "/_app": [
+      "static/runtime/webpack-08f7b238829422e3b9b2.js",
+      "static/chunks/commons.a7506cad4307493142dd.js",
+      "static/runtime/main-4ac357204d10081ebfe7.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-08f7b238829422e3b9b2.js",
+      "static/chunks/commons.a7506cad4307493142dd.js",
+      "static/runtime/main-4ac357204d10081ebfe7.js"
+    ],
+    "/_polyfills": [
+      "static/runtime/polyfills-6d3a72c8c325a2dd2384.js"
+    ]
+  }
+}
